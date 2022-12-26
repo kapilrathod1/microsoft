@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-li li a:hover,.all-microsoft a:hover{
+    padding-bottom: 1px;
+border-bottom: 2px solid black;
+}
+.nav-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px ;
+}
+.nav-2{
+display: none;
+}
+.red-link a{
+text-decoration: none;
+color: rgb(164, 0, 0);
+font-weight: 500;
+display: flex;
+}
+.red-link a:hover{
+color: rgb(164, 0, 0);
+}
+.red-link a p{
+    margin-right: 2px;
+transition: all ease-in-out 0.3s;
+}
+.red-link a p:hover{
+    margin-right: 5px;
+    color:rgb(164, 0, 0);
+    text-decoration: underline;
+}
+
+.last-container {
+    padding: 40px 60px 0px 60px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+.last-container .ul-box {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.last-container .ul-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.last-container .ul-box ul p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.last-container .ul-box ul li {
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.782);
+}
+.last-container .ul-box ul li:hover{
+    text-decoration: underline;
+    color: black;
+}
+.ul-2{
+    display: flex;
+    justify-content: space-between;
+}
+.ul-2 .li-last{
+    list-style: none;
+    cursor: pointer;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.782);
+}
+.ul-2 .li-last:hover{
+    text-decoration: underline;
+    color: black;
+}
+.ul-2 ul{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.782);
+}
+.ul-2 ul li{
+    margin-left: 20px;
+}
+.ul-2 ul li:hover{
+    text-decoration: underline;
+    color: black;
+}
+@media(max-width:768px)
+
+{
+    .nav-1{
+        display: none !important;
+    }
+    .nav-2{
+        display: block;
+    }
+    .hero{
+    padding: 60px 20px !important;
+}.hero{
+    padding: 25px !important;
+}
+    .hero div{
+        margin-right: 15px !important;
+    }
+    .hero-2{
+    padding: 0 15px !important;
+    flex-wrap: wrap;
+}
+.hero-2 .card{
+    width: auto !important;
+}
+.main h2{
+    padding: 0 20px !important;
+}
+.hero-3{
+    padding: 15px !important;
+}
+.hero-3 .bg-img{
+    background-repeat: no-repeat;
+    background-size: auto !important;
+    background-position: center !important;
+    padding: 161px 18px !important;
+    height: auto !important;
+}
+.hero-3 .text-section{
+    display: none;
+}
+.text-section-responsive{
+    display: block !important;
+    padding: 45px 15px !important;
+    width: 90% !important;
+}
+.container{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+.resp-btn{
+    position: static !important;
+    width: 95%;
+    float: left !important;
+    margin-left: 10px;
+    margin-right: 0px !important;
+
+}
+.last-container{
+    padding: 25px;
+}
+.last-container .ul-box{
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.ul-2{
+    flex-direction: column;
+}
+.ul-2 ul{
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-left: 0 !important;
+}
+.ul-2 ul li{
+    margin-left: 0;
+    margin-right: 15px;
+}
+    
+        
+}
